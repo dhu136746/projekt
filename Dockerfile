@@ -1,2 +1,2 @@
 from ubuntu
-ENTRYPOINT while [ true ] ;do echo hello world; done
+ENTRYPOINT while [ true ] ;do date ;sleep 1; done
